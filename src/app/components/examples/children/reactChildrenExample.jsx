@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 
 const FormComponent = ({ children }) => {
     const [data, setDate] = useState({});
-    console.log("children:", children);
+
     useEffect(() => {
         console.log(data);
     }, [data]);
